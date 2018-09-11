@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body{
+  min-width: 975px;
+  font-family:roboto, monospace;
+}
+
+.button {
+  width: 180px;
+  height: 40px;
+  color: white;
+  font-size: 1.1em;
+  border: 0;
+  border-radius: 25px;
+}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  font-family: Roboto, monospace;
+  font-size: 1em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+h1{
+  font-weight:510;
+  font-size: 2em;
+
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart {
+  padding: 0 15px;
+}
+
+.top-left {
+  float: left;
+}
+
+.clearfix {     
+  clear: both;
+}
+
+/*       HEADER      */
+
+.header {
+  height: 400px;
+  background-image: url("images/city-scape.svg");
+  background-color: #225f80;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.npm-logo {
+  padding: 0;
+  float: left;
+}
+
+.npm-logo img {
+  width: 100px;
+}
+
+.search-line {
+  padding: 15px;
+}
+
+.search-box {
+  height: 30px;
+  outline: none;
+  width: 77%;
+  float: left;
+  margin-left: 10px;
+  padding-top: 0 0 0 15px;
+  background-color: #225f80;
+  border: 1px solid rgba(247, 247, 247, 0.3);
+}
+
+.search-button {
+  height: 34px;
+  width: 34px;
+  float: left;
+}
+
+.end-search {
+  float: right;
+  height: 34px;
+
+  width: 140px;
+}
+
+.end-search .sign-up {
+  list-style-type: none;
+  color: white;
+  font-size: 0.9em;
+  float: left;
+  padding: 7px 0;
+}
+
+.end-search .sign-up a {
+  text-decoration: none;
+  color: white;
+}
+
+.end-search .bear {
+  float: right;
+}
+
+.end-search .bear img {
+  width: 30px;
+}
+
+.build-amazing-things {
+  padding-left: 15%;
+  color: white;
+  width: 400px;
+}
+
+.button-orange {
+  background-color: rgb(240, 146, 51);
+}
+
+/*     SECTION 1 - collaboration    */
+
+.collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height:350px;
+  padding-top: 100px;
+
+}
+
+.collab-box {
+  width: 1000px;
+  margin:0 auto;
+}
+
+.collab-img {
+  width: 400px;
+}
+
+.collab-text {
+  float: right;
+}
+
+.collab-text h2 {
+  padding-left: 20px;
+}
+
+.collab-ul {
+  line-height: 2em;
+}
+
+.button-red {
+  background-color: rgb(203, 56, 55);
+}
+
+.collab-last-line {
+  padding-left: 20px;
+}
+.collab-link a {
+text-decoration: none;
+color: white;
+font-weight: bold; 
+}
+
+/*    SECTION 2       */
+
+.whatisnpm {
+  background: url("images/forklift.svg");
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  color: white;
+
+}
+
+.text-box {
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  padding-left: 270px;
+}
+
+.button-blue {
+  background-color: rgb(49, 68, 88);
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 1em;
+  border: 0;
+  border-radius: 25px;
+}
+
+/*  SECTION 3     */
+
+.text-part {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.text-part h2 {
+  color: rgb(83, 88, 98);
+  font-weight: 350;
+}
+
+.text-part p {
+  color: rgb(120, 134, 148);
+  font-weight: 500;
+}
+
+.section-three-articles {
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-three-articles p {
+  color: rgb(120, 134, 148);
+  font-weight: 500;
+}
+
+.section-three-articles a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+  font-weight: 500;
+}
+
+.part-two {
+  left: 200px;
+  margin-left:10%;
+  margin-bottom: 20px;
+}
